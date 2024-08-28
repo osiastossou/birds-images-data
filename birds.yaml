@@ -1,0 +1,7 @@
+train: /kaggle/working/yolov9/birds-images-annotations/train  # Chemin vers le répertoire contenant les images d'entraînement
+val: /kaggle/working/yolov9/birds-images-annotations/val      # Chemin vers le répertoire contenant les images de validation
+test: /kaggle/working/yolov9/birds-images-annotations/test    # Chemin vers le répertoire contenant les images de test
+nc: 2                # Nombre de classes à détecter
+names:
+  0: pest_bird
+  1: non_pest_bird
